@@ -9,7 +9,7 @@ int main(){
     while (true){
         cin >> n;
         factorial(n, 16);
-        fibonacci(n, 16);
+        //fibonacci(n, 16);
     }
     return 0;
 }
