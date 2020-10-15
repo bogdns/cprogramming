@@ -8,8 +8,8 @@ int main(){
     int n;
     while (true){
         cin >> n;
-        factorial(n);
-        //fibonacci(n);
+        factorial(n, 16);
+        fibonacci(n, 16);
     }
     return 0;
 }

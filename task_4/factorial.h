@@ -4,6 +4,6 @@
 double fact_cycle(int x);
 double fact_rec(int x);
 double fact_stir(int x);
-void factorial(int n);
+void factorial(int n, int prec = 16);
 
 #endif

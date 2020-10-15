@@ -26,7 +26,7 @@ double fib_bin(int x) {
     return (pow(phi,x) - pow(phi-1,x))/sqrt(5);
 }
 
-void fibonacci(int n) {
+void fibonacci(int n, int prec) {
     if (n > 1474) cout << "Write less number. Overflow." << endl;
 
     else if (n < 1) cout << "Doesn't exist. Try to write bigger number" << endl;
@@ -36,9 +36,18 @@ void fibonacci(int n) {
             cout << "WARNING! Too long for recursion.\nIf you want to continue, write 'y'.\nIf you want to count without recursion, write 'w'"<< endl;
             char w;
             cin >> w;
-            if (w == 'y') cout << "Cycle:     "<<fib_cycle(n) << endl << "Recursion: " << fib_rec(n) << endl << "Binet:     "<< fib_bin(n) << endl;
-            else cout << "Cycle:     " <<fib_cycle(n) << endl << "Binet:     " << fib_bin(n) << endl;
+            if (w == 'y') {
+                cout.precision(prec);
+                cout << "Cycle:     "<<fib_cycle(n) << endl << "Recursion: " << fib_rec(n) << endl << "Binet:     "<< fib_bin(n) << endl;
+            }
+            else {
+                cout.precision(prec);
+                cout << "Cycle:     " <<fib_cycle(n) << endl << "Binet:     " << fib_bin(n) << endl;
+            }
         }
-        else cout << "Cycle:     "<<fib_cycle(n) << endl << "Recursion: " << fib_rec(n) << endl << "Binet:     "<< fib_bin(n)<< endl;
+        else {
+            cout.precision(prec);
+            cout << "Cycle:     "<<fib_cycle(n) << endl << "Recursion: " << fib_rec(n) << endl << "Binet:     "<< fib_bin(n)<< endl;
+        }
     }
 }

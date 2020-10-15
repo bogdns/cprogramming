@@ -4,6 +4,6 @@
 double fib_cycle(int x);
 double fib_rec(int x);
 double fib_bin(int x);
-void fibonacci(int n);
+void fibonacci(int n, int prec = 16);
 
 #endif

@@ -20,12 +20,13 @@ double fact_stir(int x) {
     return sqrt(2 * 3.14159 * x) * pow(x / exp(1), x);
 }
 
-void factorial(int n) {
+void factorial(int n, int prec) {
     if (n > 170) cout << "Write less number. Overflow." << endl;
 
     else if (n < 0) cout << "Doesn't exist. Try to write bigger number" << endl;
 
-    else {
+    else{
+        cout.precision(prec);
         cout << "Cycle:     " << fact_cycle(n) << endl << "Recursion: " << fact_rec(n) << endl << "Stirling:  "
              << fact_stir(n) << endl;
     }
