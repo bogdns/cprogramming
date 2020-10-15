@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/st088244/CLionProjects/untitled/factorial.cpp
+factorial.h
+C:/Users/st088244/CLionProjects/untitled/factorial.h
+
+C:/Users/st088244/CLionProjects/untitled/factorial.h
+
