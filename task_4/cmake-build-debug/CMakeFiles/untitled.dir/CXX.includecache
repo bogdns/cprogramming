@@ -6,9 +6,15 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/st088244/CLionProjects/untitled/factorial.cpp
-factorial.h
-C:/Users/st088244/CLionProjects/untitled/factorial.h
+C:/Users/st088244/CLionProjects/cprogramms/task_4/factorial.h
 
-C:/Users/st088244/CLionProjects/untitled/factorial.h
+C:/Users/st088244/CLionProjects/cprogramms/task_4/fibonacci.h
+
+C:/Users/st088244/CLionProjects/cprogramms/task_4/main.cpp
+iostream
+-
+factorial.h
+C:/Users/st088244/CLionProjects/cprogramms/task_4/factorial.h
+fibonacci.h
+C:/Users/st088244/CLionProjects/cprogramms/task_4/fibonacci.h
 

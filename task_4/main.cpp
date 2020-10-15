@@ -1,8 +1,15 @@
 #include <iostream>
 #include "factorial.h"
+#include "fibonacci.h"
+
 using namespace std;
 
 int main(){
-    cout << fact_cycle(5);
+    int n;
+    while (true){
+        cin >> n;
+        factorial(n);
+        //fibonacci(n);
+    }
     return 0;
 }

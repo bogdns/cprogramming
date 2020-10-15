@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/untitled.dir/main.cpp.obj"
   "CMakeFiles/untitled.dir/factorial.cpp.obj"
+  "CMakeFiles/untitled.dir/fibonacci.cpp.obj"
   "untitled.pdb"
   "untitled.exe"
   "untitled.exe.manifest"

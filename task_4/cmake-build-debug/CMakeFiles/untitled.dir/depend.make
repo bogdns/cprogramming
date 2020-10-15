@@ -4,6 +4,10 @@
 CMakeFiles/untitled.dir/factorial.cpp.obj: ../factorial.cpp
 CMakeFiles/untitled.dir/factorial.cpp.obj: ../factorial.h
 
+CMakeFiles/untitled.dir/fibonacci.cpp.obj: ../fibonacci.cpp
+CMakeFiles/untitled.dir/fibonacci.cpp.obj: ../fibonacci.h
+
 CMakeFiles/untitled.dir/main.cpp.obj: ../factorial.h
+CMakeFiles/untitled.dir/main.cpp.obj: ../fibonacci.h
 CMakeFiles/untitled.dir/main.cpp.obj: ../main.cpp
 
