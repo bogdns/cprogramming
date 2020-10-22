@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/st088244/CLionProjects/cprogramms/task_4/factorial.cpp" "C:/Users/st088244/CLionProjects/cprogramms/task_4/cmake-build-debug/CMakeFiles/untitled.dir/factorial.cpp.obj"
-  "C:/Users/st088244/CLionProjects/cprogramms/task_4/fibonacci.cpp" "C:/Users/st088244/CLionProjects/cprogramms/task_4/cmake-build-debug/CMakeFiles/untitled.dir/fibonacci.cpp.obj"
-  "C:/Users/st088244/CLionProjects/cprogramms/task_4/main.cpp" "C:/Users/st088244/CLionProjects/cprogramms/task_4/cmake-build-debug/CMakeFiles/untitled.dir/main.cpp.obj"
+  "C:/Users/st088244/CLionProjects/cprogramming/task_4/factorial.cpp" "C:/Users/st088244/CLionProjects/cprogramming/task_4/cmake-build-debug/CMakeFiles/untitled.dir/factorial.cpp.obj"
+  "C:/Users/st088244/CLionProjects/cprogramming/task_4/fibonacci.cpp" "C:/Users/st088244/CLionProjects/cprogramming/task_4/cmake-build-debug/CMakeFiles/untitled.dir/fibonacci.cpp.obj"
+  "C:/Users/st088244/CLionProjects/cprogramming/task_4/main.cpp" "C:/Users/st088244/CLionProjects/cprogramming/task_4/cmake-build-debug/CMakeFiles/untitled.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
