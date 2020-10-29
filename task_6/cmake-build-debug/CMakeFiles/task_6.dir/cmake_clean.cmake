@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/task_6.dir/main.cpp.obj"
+  "CMakeFiles/task_6.dir/sort.cpp.obj"
   "task_6.pdb"
   "task_6.exe"
   "task_6.exe.manifest"
