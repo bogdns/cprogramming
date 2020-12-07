@@ -31,7 +31,7 @@ void print_m(string a[], int n) {
         cout << ", " << a[i];
     }
 }
-
+//Метод пузырька
 void sort_b(int a[], int n) {
     for (int i = 0; i < n - 1; i++) {
         for (int j = 0; j < n - 1; j++) {
@@ -75,7 +75,7 @@ void sort_b(string a[], int n) {
     }
     print_m(a, n);
 }
-
+//Метод выбора
 void sort_s(int a[], int n) {
     int mn;
     for (int i = 0; i < n - 1; i++) {
@@ -131,7 +131,7 @@ void sort_s(string a[], int n) {
     }
     print_m(a, n);
 }
-
+//Метод вставки
 void sort_i(int a[], int n) {
     int cur;
     int temp;
@@ -215,7 +215,7 @@ void sort_i(string a[], int n) {
     }
     print_m(a, n);
 }
-
+//Быстрая сортировка
 void sort_q(int a[], int n){
 
 }
