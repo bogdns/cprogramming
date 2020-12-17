@@ -6,14 +6,12 @@
 
 #IncludeRegexTransform: 
 
-/cygdrive/c/Загрузки/cprogramming-master/cprogramming-master/task_6/main.cpp
+/cygdrive/c/Загрузки/cprogramming-master/cprogramming-master/task_6/sort.cpp
 iostream
--
-string
 -
 sort.h
 /cygdrive/c/Загрузки/cprogramming-master/cprogramming-master/task_6/sort.h
-fstream
+string
 -
 vector
 -

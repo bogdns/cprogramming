@@ -12,18 +12,22 @@ void print_m(vector<string> &a, int n) {
     }
 }
 
-//Метод пузырька
+//Bubble method
 void sort_b(vector<string> &a, int n) {
+    int swap_counter = 1; //uses to detect sorted array earlier
     for (int i = 0; i < n - 1; i++) {
+        if (swap_counter == 0) break;
+        swap_counter = 0;
         for (int j = 0; j < n - 1; j++) {
             if (a[j] > a[j + 1]) {
                 swap(a[j], a[j + 1]);
+                swap_counter++;
             }
         }
     }
 }
 
-//Метод выбора
+//Selection method
 void sort_s(vector<string> &a, int n) {
     int mn;
     for (int i = 0; i < n - 1; i++) {
@@ -37,7 +41,7 @@ void sort_s(vector<string> &a, int n) {
     }
 }
 
-//Метод вставки
+//Insertion method
 void sort_i(vector<string> &a, int n) {
     int cur;
     string temp;
@@ -58,7 +62,7 @@ void sort_i(vector<string> &a, int n) {
     }
 }
 
-//Быстрая сортировка
+//Quick sort method
 void sort_q(vector<string> &a, int l, int r) {
     if (r > l) {
         int R = r;
