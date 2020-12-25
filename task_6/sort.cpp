@@ -6,9 +6,8 @@
 using namespace std;
 
 void print_m(vector<string> &a, int n) {
-    cout << a[0];
-    for (int i = 1; i < n; i++) {
-        cout << ", " << a[i];
+    for (int i = 0; i < n; i++) {
+        cout << a[i] << endl;
     }
 }
 
